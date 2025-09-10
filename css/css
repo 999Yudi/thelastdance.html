@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
-        rel="stylesheet">
-    <title>Swag Y2K</title>
-    <style>
-        body {
+/* inicial*/
+body {
             font-family: 'Courier New', Courier, monospace;
             background-color: aliceblue;
             margin: 0;
@@ -22,23 +11,23 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px 40px;
-            background-color: rgb(65, 83, 0);
+            background-color: rgb(201, 99, 4);
             color: white;
             box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.2);
         }
 
-        .logo-title {
+        .logo {
             display: flex;
             align-items: center;
             gap: 15px;
         }
 
-        .logo-title img {
+        .logo img {
             height: 80px;
             width: auto;
         }
 
-        .logo-title h1 {
+        .logo h1 {
             font-family: "Bebas Neue", sans-serif;
             font-size: 2.5rem;
             font-weight: 400;
@@ -61,23 +50,30 @@
         .opcoes a:hover {
             text-decoration: underline;
         }
-    </style>
-</head>
 
-<body>
-    <header class="header">
-        <div class="logo-title">
-            <img src="c:\Users\aluno\Downloads\ChatGPT Image 18 de ago. de 2025, 15_16_18.png" alt="logo">
-            <h1>LAB SWAG</h1>
-        </div>
-        <nav class="opcoes">
-            <a href="a">Roupas</a>
-            <a href="#">Carrinho</a>
-            <a href="#">Favoritos</a>
-            <a href="#">Diversos</a>
-            <a href="#">Faq</a>
-        </nav>
-    </header>
-</body>
+        .cardg {
+            max-width: 1200px;
+            margin: 60px auto; 
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            padding: 30px;
+            text-align: center;
+            font-family: "Roboto Flex", sans-serif;
+        }
 
-</html>
+        .cardg h2 {
+            margin-top: 0;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 2rem;
+            color: rgb(201, 99, 4);
+        }
+
+        .cardg p {
+            font-size: 1rem;
+            color: #333;
+        }
+
+/* inicial*/
+
+
