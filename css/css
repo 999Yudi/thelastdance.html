@@ -6,59 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <title>inicial</title>
-</head>
-
-<body>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
+    <title>Swag Y2K</title>
     <style>
         body {
-            font-family: "Oswald", sans-serif;
+            font-family: 'Courier New', Courier, monospace;
             background-color: aliceblue;
             margin: 0;
         }
 
         .header {
             display: flex;
+            justify-content: space-between;
             align-items: center;
             padding: 20px 40px;
-            background-color: rgb(0, 199, 199);
+            background-color: rgb(65, 83, 0);
             color: white;
             box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.2);
         }
 
+        .logo-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
 
-        .font {
-            font-family: "Oswald", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: weight;
-            font-style: normal;
+        .logo-title img {
+            height: 80px;
+            width: auto;
+        }
+
+        .logo-title h1 {
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin: 0;
         }
 
         .opcoes {
             display: flex;
-align-items: flex-end;
-            gap: 30px
-            
+            gap: 30px;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 1.5rem;
         }
 
         .opcoes a {
             color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .opcoes a:hover {
+            text-decoration: underline;
         }
     </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-title">
+            <img src="c:\Users\aluno\Downloads\ChatGPT Image 18 de ago. de 2025, 15_16_18.png" alt="logo">
+            <h1>LAB SWAG</h1>
+        </div>
+        <nav class="opcoes">
+            <a href="a">Roupas</a>
+            <a href="#">Carrinho</a>
+            <a href="#">Favoritos</a>
+            <a href="#">Diversos</a>
+            <a href="#">Faq</a>
+        </nav>
+    </header>
 </body>
-<header class="header">
-    <div class="logo-title"></div>
-    <h1>LAB SWAG</h1>
-    </div>
-
-    <div class="font"></div>
-
-    <nav class="opcoes">
-        <a href="a">ROUPAS</a>
-        <a href="#">CARRINHO</a>
-        <a href="#">FAVORITOS</a>
-        <a href="#">PERGUNTAS</a>
-    </nav>
 
 </html>
