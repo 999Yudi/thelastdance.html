@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB SWAG</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+
+</style>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1>LAB SWAG</h1>
+    </header>
+
+    <nav class="opcoes">
+        <a href="#">ROUPAS</a>
+        <a href="#">FAVORITOS</a>
+        <a href="#">CARRINHO</a>
+        <a href="#">DIVERSOS</a>
+    </nav>
+
+    <div class="card">
+        <h2>ROUPAS</h2>
+    </div>
+
+
+    <div class="categorias-container">
+        <div class="categorias">BLUSAS</div>
+        <div class="categorias">CALÇAS</div>
+        <div class="categorias">SAPATOS</div>
+        <div class="categorias">MOLETOM</div>
+    </div>
+
+</body>
+
+</html>
