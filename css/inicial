@@ -2,7 +2,6 @@
             background-color: rgb(255, 255, 255);
             font-family: "Oswald", sans-serif;
             margin: 0px;
-
         }
 
         .cabecalho {
@@ -10,32 +9,34 @@
             padding: 20px 40px;
             box-shadow: 0px 10px 12px;
             background-color: rgb(0, 143, 143);
-
         }
 
         .cabecalho h1 {
             color: white;
         }
 
-
         .font {
             font-family: "Oswald", sans-serif;
             font-optical-sizing: auto;
             font-weight: weight;
             font-style: normal;
-
         }
 
-        .opcoes{
+        .opcoes {
             display: flex;
             gap: 30px;
             font-family: "Bebas Neue", sans-serif;
             font-size: 1.5rem;
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
         }
 
-        .opçoes a{
-            color: aliceblue;
+        .opcoes a {
+            color: white;
             text-decoration: none;
+            margin: 30px;
         }
 
         .card {
@@ -49,7 +50,6 @@
             font-family: "Roboto Flex", sans-serif;
         }
 
-
         .card h2 {
             margin-top: 0;
             font-family: "Bebas Neue", sans-serif;
@@ -57,9 +57,7 @@
             color: rgb(0, 143, 143);
         }
 
-        
         .cardg p {
             font-size: 1rem;
             color: #333;
         }
-
