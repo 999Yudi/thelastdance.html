@@ -1,4 +1,4 @@
- body {
+body {
             background-color: rgb(255, 255, 255);
             font-family: "Oswald", sans-serif;
             margin: 0px;
@@ -25,7 +25,7 @@
 
         .opcoes {
             display: flex;
-            gap: 0px;
+            gap: 20px;
             justify-content: space-between;
             font-family: "Bebas Neue", sans-serif;
             font-size: 1.5rem;
@@ -38,7 +38,7 @@
         .opcoes a {
             color: white;
             text-decoration: none;
-            margin: 30px;
+            margin: 3px;
         }
 
         .card {
@@ -65,21 +65,22 @@
         }
 
         .categorias-container {
-             font-family:  "Bebas Neue", sans-serif;
+            font-family: "Bebas Neue", sans-serif;
             display: flex;
             justify-content: center;
             gap: 40px;
             flex-wrap: wrap;
             margin-top: 30px;
-           
+
         }
 
         .categorias {
             max-width: 100px;
-            background: white;
+            background:rgb(0, 143, 143);
+            color: white;
             border-radius: 20px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
             padding: 20px;
             text-align: center;
-            font-family: "Roboto Flex", sans-serif;
+            font-family: "Bebas Neue", sans-serif;
         }
