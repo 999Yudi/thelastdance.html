@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+   </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1> LAB SWAG</h1>
+    </header>
+
+    <div class="font"></div>
+
+    <nav class="opcoes">
+        <a href="#">ROUPAS</a>
+        <a href="#">FAVORITOS</a>
+        <a href="#">CARRINHO</a>
+        <a href="#">DIVERSOS</a>
+    </nav>
+
+    <div class="card">
+        <h2>SUAS ROUPAS ESTARÃO AQUI</h2>
+        <h3>NÃO ESCOLHEU SUAS ROUPAS AINDA?</h3>
+        <p>CLIQUE AQUI PARA VER NOSSAS ROUPAS</p>
+        <img src="https://i.ibb.co/RntxmLp/126510-removebg-preview.png" alt="Roupas">
+    </div>
+</body>
+
+</html>
