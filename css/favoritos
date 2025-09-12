@@ -1,1 +1,77 @@
+body {
+            background-color: rgb(255, 255, 255);
+            font-family: "Oswald", sans-serif;
+            margin: 0px;
+        }
+
+        .cabecalho {
+            display: flex;
+            padding: 20px 40px;
+            box-shadow: 0px 10px 12px;
+            background-color: rgb(0, 143, 143);
+            align-items: center;
+        }
+
+        .cabecalho h1 {
+            color: white;
+            margin: 0;
+        }
+
+        .font {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .opcoes {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 1.5rem;
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+        }
+
+        .opcoes a {
+            color: white;
+            text-decoration: none;
+            margin: 3px;
+        }
+
+        .card {
+            max-width: 1200px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            font-family: "Roboto Flex", sans-serif;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 2rem;
+            color: rgb(0, 143, 143);
+        }
+
+        .cardg p {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .card p {
+            color:  rgb(0, 143, 143);
+        }
+
+        .card h3 {
+            color: rgb(240, 28, 0);
+        }
+
+
+
 
