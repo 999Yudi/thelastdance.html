@@ -1,4 +1,4 @@
-body {
+ body {
             background-color: rgb(255, 255, 255);
             font-family: "Oswald", sans-serif;
             margin: 0px;
@@ -6,59 +6,101 @@ body {
 
         .cabecalho {
             display: flex;
+            align-items: center;
+            justify-content: space-between;
             padding: 20px 40px;
             box-shadow: 0px 1px 8px;
             background-color: rgb(0, 143, 143);
         }
 
+        .cabecalho .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
         .cabecalho h1 {
             color: white;
-        }
-
-        .font {
             font-family: "Bebas Neue", sans-serif;
-            font-weight: 400;
-            font-style: normal;
         }
 
+        .cabecalho img {
+            height: 50px;
+        }
 
         .opcoes {
             display: flex;
-            gap: 0px;
-            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
             font-family: "Bebas Neue", sans-serif;
             font-size: 1.5rem;
-            position: absolute;
-            top: 20px;
-            right: 40px;
             color: white;
         }
 
         .opcoes a {
             color: white;
             text-decoration: none;
-            margin: 30px
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .opcoes img {
+            width: 25px;
+            height: 25px;
         }
 
         .card {
-            max-width:900px;
+            max-width: 900px;
             margin: 60px auto;
             background: white;
             border-radius: 20px;
             box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
-            padding: 290px;
+            padding: 40px;
             text-align: center;
             font-family: "Roboto Flex", sans-serif;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
         }
 
         .card h2 {
-            margin-top: -200px;
             font-family: "Bebas Neue", sans-serif;
             font-size: 2rem;
             color: rgb(0, 143, 143);
+            margin-bottom: 20px;
         }
 
-        .cardg p {
+        .mini-card {
+            background: #f9f9f9;
+            border-radius: 15px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+            padding: 20px;
+            max-width: 250px;
+            text-align: center;
+        }
+
+        .mini-card h1 {
+            font-size: 1.2rem;
+            color: rgb(0, 143, 143);
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        .mini-card img {
+            width: 120px;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        .mini-card p {
             font-size: 1rem;
             color: #333;
+            cursor: pointer;
+        }
+
+        .mini-card p:hover {
+            text-decoration: underline;
+            color: rgb(0, 143, 143);
         }
