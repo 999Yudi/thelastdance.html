@@ -1,0 +1,17 @@
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <h1>LAB SWAG</h1>
+            <img src="https://i.ibb.co/k23JZMBV/71d960a7-cb4d-4b58-b451-ed30a5db381e.png" alt="Logo">
+        </div>
+
+        <nav class="opcoes">
+            <a href="#">
+                <img
+                    src="https://i.ibb.co/XxsMvVjX/png-transparent-icon-line-tshirt-crew-neck-clothing-round-neck-tshirt-collar-dsquared2-icon-tshirt-m.png">ROUPAS</a>
+            <a href="#"><img src="https://i.ibb.co/XkjnqSNj/460666-removebg-preview.png">FAVORITOS</a>
+            <a href="#"><img src="https://i.ibb.co/B27BL0yQ/images-removebg-preview-2.png">CARRINHO</a>
+            <a href="#"><img
+                    src="https://i.ibb.co/JR44wkPj/png-transparent-computer-icons-icon-design-a-group-miscellaneous-monochrome-black-1-removebg-preview.png">DIVERSOS</a>
+        </nav>
+    </header>
